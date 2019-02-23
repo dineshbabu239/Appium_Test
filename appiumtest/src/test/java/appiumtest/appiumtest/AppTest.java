@@ -14,7 +14,9 @@ import io.appium.java_client.android.AndroidDriver;
 /**
  * Unit test for simple App.
  */
-
+/*
+ * Changes made in branch feature/DA-123
+ */
 public class AppTest
 {
 	
