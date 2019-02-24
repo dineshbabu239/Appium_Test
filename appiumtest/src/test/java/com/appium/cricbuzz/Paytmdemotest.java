@@ -70,17 +70,14 @@ public class Paytmdemotest {
 		Thread.sleep(8000);
 		d.get(1).click();
 		System.out.println("clicked on do it later");
-		Thread.sleep(8000);
-		
-		//driver.findElement(By.AndroidUIAutomator("new UiScrollable(new UiSelector().resourceId("")"));
-		
-		/*MobileElement element = driver.findElementByXPath("//android.widget.TextView[@text='Mobile Postpaid']");
+		Thread.sleep(8000);		
+		MobileElement element = driver.findElementByXPath("//android.widget.TextView[@text='Mobile Postpaid']");
         Point point = element.getLocation();
         int positionX = point.getX();
         int positionY = point.getY();
         //LOG.info("x value:" + positionX + " Y value:" + positionY);
 		System.out.println("x value:" + positionX + " Y value:" + positionY);
-		*/
+		
 		
 		/*(new TouchAction(driver))
         .press(PointOption.point(262, 1340))
