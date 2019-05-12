@@ -16,7 +16,7 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 
 public class Cricbuzzdemotest {
 	
-	AppiumDriverLocalService service;
+	AppiumDriverLocalService service;//gd mng
 
 	public AppiumDriver<MobileElement> driver;   //------This is to be invoked from the libraries of----> {java_client.AppiumDriverlicst ,java_client.MobileElement}
 	@BeforeClass
