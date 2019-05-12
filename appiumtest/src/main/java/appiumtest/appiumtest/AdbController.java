@@ -42,8 +42,8 @@ public class AdbController {
 			} else {
 				BufferedReader buffer = new BufferedReader(new InputStreamReader(process.getInputStream()));
 				while ((line = buffer.readLine()) != null) {
-					LOG.info(line);
-					output = output + " " + line;
+					//LOG.info(line);
+					//output = output + " " + line;
 				}
 				buffer.close();
 			}
